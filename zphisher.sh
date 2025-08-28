@@ -203,15 +203,13 @@ check_status() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+		${ORANGE}	+-------------------------------+ 
+		${ORANGE}| ____ _ _ | 
+		${ORANGE}|| _ \(_) ___ ___ | | __ _ ___ | 
+		${ORANGE}|| |_) | |/ __/ _ \| |/ _` / __|| 
+		${ORANGE}|| __/| | (_| (_) | | (_| \__ \| 
+		${ORANGE}||_| |_|\___\___/|_|\__,_|___/| 
+		${ORANGE}+-------------------------------+                ${RED}Version : ${__version__}
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
